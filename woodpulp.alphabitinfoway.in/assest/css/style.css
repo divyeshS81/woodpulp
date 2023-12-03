@@ -645,3 +645,70 @@ ul.footer-contact-link {
 .copyright-text a:hover{
     color: black;
 }
+
+.navbar-toggle-product-btn-modal{
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbar-toggle-content-modal {
+    display: none;
+    position: absolute;
+}
+
+.navbar-toggle-content-modal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* margin-top: 0.5rem; */
+}
+
+.navbar-toggle-content-modal ul li {
+    border: 1px solid #777777;
+    padding: 0.5rem 2rem;
+    border-top:#B45F06;
+    background-color: black;
+}
+
+.navbar-toggle-product-btn-modal:hover .navbar-toggle-content-modal {
+    display: block;
+}
+
+.navbar-toggle-content-modal:hover {
+    display: block;
+}
+
+.product {
+    padding-bottom: 0.5rem;
+}
+
+.evolve-series-first-model {
+    display: flex;
+}
+.evolve-series-second-model {
+    display: flex;
+}
+
+.evolve-series-content {
+    display: none;
+}
+
+.classic-series-content {
+    display: none;
+}
+
+.evolve-series-first-model:hover .evolve-series-content {
+    display: block;
+    position: absolute;
+}
+
+.evolve-series-second-model:hover .classic-series-content {
+    display: block;
+    position: absolute;
+}
+
+.evolve-series-btn {
+    display: flex;
+}
+
