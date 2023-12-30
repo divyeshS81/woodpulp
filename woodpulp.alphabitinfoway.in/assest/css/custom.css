@@ -1,0 +1,41 @@
+/* ---------------------- */
+/* - BOOTSTRAP 4 - SOUS-MENU - */
+.dropdown-submenu {
+	position: relative;
+  }
+  .dropdown-submenu .dropdown-menu{
+	top: 0;
+	left: 100%;
+	margin-left: .1rem;
+	margin-right: .1rem;
+  color: white;
+  }
+  /* SPECIAL : ROTATION des flèches */
+  .dropdown-submenu a::after {
+	transform: rotate(-90deg);
+	position: absolute;
+	right: 6px;
+	top: .8em;
+  }
+  
+  /* --------------------- */
+  /* SPECIAL : ROTATION des flèches */
+  /* Niveau 1 */
+  li .dropdown-toggle:after {
+	transition: all 0.5s;
+  }
+  li.show > .dropdown-toggle:after {
+	transform: rotate(180deg);
+  }
+  /* sous-Niveaux suivants */
+  li li.show > .dropdown-toggle:after {
+	transform: rotate(90deg);
+  }
+  /* --------------------- */
+.nav{
+  background-color: #B45F06;
+}  
+.nav-link{
+  color: white;
+}
+.dropdown-menu{}
